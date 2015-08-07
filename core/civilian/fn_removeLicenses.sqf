@@ -44,4 +44,10 @@ switch (_state) do {
 			hint localize "STR_Civ_LicenseRemove_2";
 		};
 	};
+	
+	//Death by a cop
+	case 4:
+	{
+		license_civ_rebel = false;
+	};
 };

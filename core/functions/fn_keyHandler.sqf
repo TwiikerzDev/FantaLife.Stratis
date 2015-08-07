@@ -203,7 +203,8 @@ switch (_code) do {
 	};
 	
 	//U Key
-	case 22: {
+	case 22:
+	{
 		if(!_alt && !_ctrlKey) then {
 			if(vehicle player == player) then {
 				_veh = cursorTarget;
@@ -211,18 +212,17 @@ switch (_code) do {
 				_veh = vehicle player;
 			};
 			
-			if(_veh isKindOf "House_F" && {playerSide == civilian}) then {
+			if(_veh isKindOf "House_F" && playerSide == civilian) then {
 				if(_veh in life_vehicles && player distance _veh < 8) then {
 					_door = [_veh] call life_fnc_nearestDoor;
-					if(EQUAL(_door,0)) exitWith {hint localize "STR_House_Door_NotNear"};
-					_locked = _veh GVAR [format["bis_disabled_Door_%1",_door],0];
-					
-					if(EQUAL(_locked,0)) then {
-						_veh SVAR [format["bis_disabled_Door_%1",_door],1,true];
+					if(_door == 0) exitWith {hint localize "STR_House_Door_NotNear"};
+					_locked = _veh getVariable [format["bis_disabled_Door_%1",_door],0];
+					if(_locked == 0) then {
+						_veh setVariable[format["bis_disabled_Door_%1",_door],1,true];
 						_veh animate [format["door_%1_rot",_door],0];
 						systemChat localize "STR_House_Door_Lock";
 					} else {
-						_veh SVAR [format["bis_disabled_Door_%1",_door],0,true];
+						_veh setVariable[format["bis_disabled_Door_%1",_door],0,true];
 						_veh animate [format["door_%1_rot",_door],1];
 						systemChat localize "STR_House_Door_Unlock";
 					};
@@ -230,20 +230,24 @@ switch (_code) do {
 			} else {
 				_locked = locked _veh;
 				if(_veh in life_vehicles && player distance _veh < 8) then {
-					if(EQUAL(_locked,2)) then {
+					if(_locked == 2) then {
 						if(local _veh) then {
 							_veh lock 0;
 						} else {
-							[[_veh,0],"life_fnc_lockVehicle",_veh,false] call life_fnc_MP;
+							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
-						systemChat localize "STR_MISC_VehUnlock";
-					} else {
+						hint composeText [ image "icons\unlock.paa", " Vehicule Ouvert" ];
+                        player say3D "unlock";
+					}
+						else
+					{
 						if(local _veh) then {
 							_veh lock 2;
 						} else {
-							[[_veh,2],"life_fnc_lockVehicle",_veh,false] call life_fnc_MP;
+							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
-						systemChat localize "STR_MISC_VehLock";
+						hint composeText [ image "icons\lock.paa", " Vehicule Ferme" ];
+                        player say3D "car_lock";
 					};
 				};
 			};
