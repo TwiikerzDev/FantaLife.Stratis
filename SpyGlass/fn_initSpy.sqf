@@ -138,8 +138,9 @@ _patchList =
 "A3_Static_F_Mark_Designator_02","A3_Supplies_F_Mark","A3_Weapons_F_Mark_Acc","A3_Missions_F_Mark","A3_Missions_F_MP_Mark",
 "A3_Weapons_F_Mark","A3_Weapons_F_Mark_LongRangeRifles_DMR_02","A3_Weapons_F_Mark_LongRangeRifles_DMR_03","A3_Weapons_F_Mark_LongRangeRifles_DMR_04",
 "A3_Weapons_F_Mark_LongRangeRifles_DMR_05","A3_Weapons_F_Mark_LongRangeRifles_DMR_06","A3_Weapons_F_Mark_Machineguns_MMG_01",
-"A3_Weapons_F_Mark_Machineguns_MMG_02","Skyline_Bus","Skyline_Mercedes_300_SEL","Skyline_Mercedes_C63","dutch_aviation_emergency_services","HAFM_EC635","HAFM_EC635_Config","A3_Air_F","A3_Weapons_F","xCam_Source","iniDBI","xcam_objects","xCam_Metal","xCam_Pipe","xCam_Woodworks",
-"xCam_brg_africa","xCam_EU","plp_beachobjects","HAFM_HMMWV"
+"A3_Weapons_F_Mark_Machineguns_MMG_02","Skyline_Bus","Skyline_Mercedes_300_SEL","Skyline_Mercedes_C63","dutch_aviation_emergency_services","A3_Air_F","A3_Weapons_F","xCam_Source","iniDBI","xcam_objects","xCam_Metal","xCam_Pipe","xCam_Woodworks",
+"xCam_brg_africa","xCam_EU","plp_beachobjects","wirk_h3_limo","wirk_h6","wirk_veneno","CATracked2_AAV","ACR_LandRover_AMB","LandRover_ACR","LandRover_CZ_EP1","BAF_Offroad_W",
+"BAF_Offroad_D","LandRover_TK_CIV_EP1","ACR_Offroad_HMG","BAF_Offroad_W_HMG","BAF_Offroad_D_HMG","LandRover_MG_TK_EP1"
 ];
 
 uiNamespace setVariable["RscDisplayRemoteMissions",displayNull]; //For Spy-Glass..

@@ -1,6 +1,6 @@
 author = "Tonic and Itsyuka";
 onLoadName = "Altis Life RPG v4.0";
-onLoadMission = "FantaLife 1.0 by FantaShower & Will";
+onLoadMission = "FantaLife 1.0 by FantaShower et Will";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
