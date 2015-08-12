@@ -2,7 +2,7 @@
 	File: fn_copLoadout.sqf
 	Author: Bryan "Tonic" Boardwine
 	Edited: Itsyuka
-
+	
 	Description:
 	Loads the cops out with the default gear.
 */
@@ -14,11 +14,13 @@ waitUntil {scriptDone _handle};
 player addUniform "U_Rangemaster";
 player addVest "V_Rangemaster_belt";
 
-player addWeapon "DDOPP_X26";
-player addMagazine "DDOPP_1Rnd_X26";
-player addMagazine "DDOPP_1Rnd_X26";
-player addMagazine "DDOPP_1Rnd_X26";
-player addMagazine "DDOPP_1Rnd_X26";
+player addWeapon "hgun_P07_snds_F";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
+player addMagazine "16Rnd_9x21_Mag";
 
 /* ITEMS */
 player addItem "ItemMap";

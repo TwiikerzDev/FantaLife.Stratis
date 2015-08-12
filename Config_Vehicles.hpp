@@ -172,7 +172,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 0, 0, 1500, 0 };
 		garageSell[] = { 0, 0, 5000, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 	};
 	
@@ -180,7 +183,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 	};
 	
@@ -188,7 +194,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 	};
 	
@@ -196,7 +205,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 	};
 	
@@ -204,7 +216,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 	};
 	
@@ -212,7 +227,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 		textures[] = {
         	{ "Noir", "civ", {
@@ -264,7 +282,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 		textures[] = {
         	{ "Noir", "civ", {
@@ -316,7 +337,10 @@ class CfgVehicles {
 		vItemSpace = 150;
 		storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 5000, 0, 0, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 3000;
 		textures[] = {
         	{ "Noir", "civ", {
@@ -368,7 +392,10 @@ class CfgVehicles {
 		vItemSpace = 200;
 		storageFee[] = { 0, 0, 3000, 0 };
 		garageSell[] = { 0, 0, 10000, 0 };
+<<<<<<< HEAD
 		insurance[] = { 5000, 0, 5000, 0 };
+=======
+>>>>>>> parent of 8f42e84... Assurance In Dev
 		chopShop = 7500;
 	};
 

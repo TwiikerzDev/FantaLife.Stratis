@@ -4654,20 +4654,6 @@
 			<Italian>Costo di vendita:</Italian>
 			<Portuguese>Preço de Venda</Portuguese>
 		</Key>
-		<Key ID="STR_Shop_Veh_UI_Assur">
-			<Original>Prix assurance:</Original>
-			<German>Prix assurance:Prix assurance:</German>
-			<French>Prix assurance:</French>
-			<Italian>Prix assurance:</Italian>
-			<Portuguese>Prix assurance:</Portuguese>
-		</Key>
-		<Key ID="STR_Shop_Veh_UI_AssurI">
-			<Original>Etat de l'assurance:</Original>
-			<German>Etat de l'assurance:</German>
-			<French>Etat de l'assurance:</French>
-			<Italian>CoEtat de l'assurance:</Italian>
-			<Portuguese>Etat de l'assurance:</Portuguese>
-		</Key>
 		<Key ID="STR_Shop_Veh_UI_Color">
 			<Original>Color:</Original>
 			<German>Farbe:</German>
